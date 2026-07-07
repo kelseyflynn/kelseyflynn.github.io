@@ -245,6 +245,7 @@ a:hover {
 }
 .portrait-frame {
   position: relative;
+  width: fit-content; /* plate hugs the image */
   margin-right: 14px; /* room for the offset plate */
 }
 .portrait-frame::after {
