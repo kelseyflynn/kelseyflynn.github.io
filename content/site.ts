@@ -22,7 +22,7 @@ export const site = {
 
   // Headline numbers. Every figure here is from delivered work.
   metrics: [
-    { value: "$70M+", label: "incremental revenue delivered vs a $40M target" },
+    { value: "$70M+", label: "incremental revenue delivered vs a target raised to $60M" },
     { value: "60+", label: "programmes brought under one portfolio view" },
     { value: "$8.4B", label: "annual spend optimised across 14 markets" },
     { value: "2×", label: "C-suite review prep cut from four weeks to two" },

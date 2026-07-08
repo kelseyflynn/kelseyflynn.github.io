@@ -99,11 +99,11 @@ export const projects: CaseStudy[] = [
     keyDecisions: [
       {
         decision: "Ladder the packets instead of rebuilding each one.",
-        why: "Most prep time was re-assembly. Making each packet feed the next removed the duplicated work rather than speeding it up.",
+        why: "Most prep time went on re-assembling the same material. Laddering meant each packet built on the last, so the work was done once per cycle instead of rebuilt from scratch.",
       },
       {
         decision: "Pull the data rather than chase 25 people for it.",
-        why: "Data collection should not be a group activity. One validated pull freed forty contributors and removed the single biggest source of delay.",
+        why: "Data collection should not be a group activity. One validated pull freed 25+ contributors and removed the single biggest source of delay.",
       },
       {
         decision: "Rebuild the QBR deck around decisions, not status.",
@@ -113,22 +113,22 @@ export const projects: CaseStudy[] = [
     result:
       "C-suite preparation dropped from four weeks to two, 25+ contributors got their cycle time back, and the QBR became a forum that asks for decisions rather than one that reports status.",
     learned:
-      "Spend the time laying the groundwork so the meeting time goes on decisions. With a repeatable packet, C-suite reviews were spent on the decisions needed rather than on how to build the deck - and a repeatable rhythm meant I could tell contributors eight months in advance exactly when I would come to them and what I would ask for. The processes that stick are the ones that take administrative work off people's plates.",
+      "Lay the groundwork so meeting time goes on decisions. A repeatable packet meant reviews debated the decision, not the deck. A repeatable rhythm meant contributors knew eight months out exactly when I was coming and what I would ask for. Processes stick when they take work off people's plates.",
   },
   {
     slug: "expedia-commercial-programme",
     client: "Expedia Group",
     discipline: "Commercial strategy",
-    title: "$70M+ delivered against a $40M target",
+    title: "$70M+ delivered against a rising target",
     summary:
-      "Built the plan: real growth separated from market inflation, targets set by partner segment, six functions mobilised. Handed over at the start of the year, the programme delivered $30M above target.",
+      "Built the plan: real growth separated from market inflation, targets set by partner segment, six functions mobilised. The target rose from $40M to $60M on the same timeline - the programme delivered $70M+.",
     metrics: [
       { value: "$70M+", label: "incremental revenue delivered" },
-      { value: "$30M", label: "over the original target" },
+      { value: "$40M→$60M", label: "target raised mid-flight, same timeline" },
       { value: "6", label: "functions mobilised behind one plan" },
     ],
     problem:
-      "The programme carried a $40M incremental revenue target, but the headline numbers mixed real growth with market inflation. Without separating the two, teams could hit the number while creating nothing.",
+      "The programme started with a $40M incremental revenue target, raised to $60M shortly after with no extra time. And the headline numbers mixed real growth with market inflation - without separating the two, teams could hit the number while creating nothing.",
     targetUser:
       "Commercial leadership, who needed targets they could defend, and the teams in Product, Marketing, Sales Enablement, Finance, Analytics and Commercial whose work had to add up to one result.",
     role:
@@ -150,7 +150,7 @@ export const projects: CaseStudy[] = [
       },
     ],
     result:
-      "The programme delivered $70M+ in incremental revenue against the $40M target - $30M over, measured against a baseline that had already excluded market inflation. The delivery credit belongs to the team I handed it to; the plan they ran was the one I built.",
+      "The programme delivered $70M+ in incremental revenue - clear of the original $40M target and the $60M it was raised to on the same timeline, measured against a baseline that had already excluded market inflation. The delivery credit belongs to the team I handed it to; the plan they ran was the one I built.",
     learned:
       "Defining what counts is the work - deciding how growth would be measured did as much for the outcome as any initiative that followed. And a plan that keeps delivering after you hand it over is the real test of the planning.",
   },
@@ -173,14 +173,20 @@ export const projects: CaseStudy[] = [
     role:
       "Consultant leading the onboarding overhaul at the client's largest business unit. The redesign lived or died on adoption, so managing stakeholders - from sceptical operators to the leadership who owned the result - was as much the job as the process work.",
     process: [
-      "Mapped the existing 100+ day process end to end to find where the time actually went.",
-      "Redesigned onboarding around what the mapping showed, cutting the steps that added days without adding confidence.",
-      "Worked the operators' objections into the design as it took shape, so the people running the process daily had shaped it.",
+      "Mapped the existing 100+ day process end to end to find where the time actually went - and which pieces were realistic to change.",
+      "Chose a single subprocess as the starting point: a deliberate balance of impact and speed rather than the longest stretch of cycle time.",
+      "Redesigned that subprocess around what the mapping showed, cutting the steps that added days without adding confidence.",
+      "Worked the operators' objections into the design as it took shape, so the people running the process daily had shaped it before go-live.",
+      "Kept the unit's leadership close throughout, so scope and trade-off decisions were made with them rather than presented to them.",
     ],
     keyDecisions: [
       {
         decision: "Map before changing anything.",
         why: "The redesign had to attack where the time actually went, not where people assumed it went. The mapping made the case for every change that followed.",
+      },
+      {
+        decision: "Start with the highest-leverage subprocess, not the longest.",
+        why: "The longest stretch of cycle time was not the best first move. The subprocess we picked offered the strongest balance of impact and speed - and an early, visible win bought the trust the rest of the redesign needed.",
       },
       {
         decision: "Treat stakeholder resistance as design input, not an obstacle.",
