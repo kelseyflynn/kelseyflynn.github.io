@@ -274,20 +274,40 @@ a:hover {
   color: var(--ink);
   font-size: var(--text-sm);
 }
-.figure-status {
-  display: block;
-  margin-top: var(--space-2);
+/* Availability bar - sitewide, under the header */
+.avail-bar {
+  background: var(--paper-raised);
+  border-bottom: 1px solid var(--line);
+}
+.avail-bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  padding-block: var(--space-3);
+  font-size: var(--text-sm);
+}
+.avail-text {
   font-weight: 600;
   color: var(--accent-ink);
+  letter-spacing: 0.01em;
 }
-.figure-status::before {
+.avail-text::before {
   content: "";
   display: inline-block;
   width: 0.5em;
   height: 0.5em;
   border-radius: 50%;
   background: var(--accent);
-  margin-right: 0.5em;
+  margin-right: 0.6em;
+}
+.avail-bar a {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--accent-ink);
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.25em;
 }
 .hero-intro {
   max-width: var(--measure);

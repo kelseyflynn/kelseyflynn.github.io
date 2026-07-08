@@ -48,6 +48,12 @@ export default function RootLayout({
           Skip to content
         </a>
         <Header />
+        <aside className="avail-bar">
+          <div className="container">
+            <span className="avail-text">{site.openTo}</span>
+            <a href={`mailto:${site.email}`}>Get in touch</a>
+          </div>
+        </aside>
         <main id="main">{children}</main>
         <Footer />
       </body>

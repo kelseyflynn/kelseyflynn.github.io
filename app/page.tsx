@@ -45,7 +45,6 @@ export default function Home() {
               <strong>
                 {site.name} · {site.location}
               </strong>
-              <span className="figure-status">{site.openTo}</span>
             </figcaption>
           </figure>
         </div>
