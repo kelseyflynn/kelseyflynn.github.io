@@ -356,6 +356,10 @@ a:hover {
     border-top: 1px solid var(--line);
     padding-top: var(--space-6);
   }
+  .portrait-frame {
+    margin-inline: auto; /* centre the photo, matching the centred caption */
+    margin-right: auto;
+  }
   .portrait {
     width: 12rem;
   }
