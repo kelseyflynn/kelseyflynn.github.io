@@ -264,7 +264,7 @@ a:hover {
 }
 .hero-figure figcaption {
   margin-top: var(--space-6);
-  font-size: var(--text-xs);
+  text-align: center;
   line-height: 1.6;
   color: var(--ink-soft);
   max-width: clamp(14rem, 23vw, 19rem);
@@ -272,18 +272,24 @@ a:hover {
 .hero-figure figcaption strong {
   display: block;
   color: var(--ink);
-  font-size: var(--text-sm);
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: 600;
 }
 /* Availability bar - sitewide, under the header */
 .avail-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
   background: var(--paper-raised);
   border-bottom: 1px solid var(--line);
 }
 .avail-bar .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-4);
+  justify-content: center;
+  text-align: center;
+  gap: var(--space-2) var(--space-6);
   flex-wrap: wrap;
   padding-block: var(--space-3);
   font-size: var(--text-sm);
@@ -301,6 +307,7 @@ a:hover {
   border-radius: 50%;
   background: var(--accent);
   margin-right: 0.6em;
+  vertical-align: 0.08em;
 }
 .avail-bar a {
   font-weight: 600;

@@ -13,8 +13,8 @@ export function Header() {
           <Link href="/#work">Work</Link>
           <Link href="/#about">About</Link>
           <Link href="/#experience">Experience</Link>
-          <a href={`mailto:${site.email}`} className="nav-cta">
-            Email me
+          <a href="/#contact" className="nav-cta">
+            Contact
           </a>
         </nav>
       </div>

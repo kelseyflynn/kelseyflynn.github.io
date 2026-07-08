@@ -22,7 +22,7 @@ export default function Home() {
           <div>
             <p className="hero-intro">{site.intro}</p>
             <div className="hero-actions">
-              <a href={`mailto:${site.email}`} className="btn btn-primary">
+              <a href="#contact" className="btn btn-primary">
                 Get in touch
               </a>
               <a href="#work" className="text-link">

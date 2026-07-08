@@ -51,7 +51,7 @@ export default function RootLayout({
         <aside className="avail-bar">
           <div className="container">
             <span className="avail-text">{site.openTo}</span>
-            <a href={`mailto:${site.email}`}>Get in touch</a>
+            <a href="/#contact">Get in touch</a>
           </div>
         </aside>
         <main id="main">{children}</main>
