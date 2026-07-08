@@ -277,12 +277,19 @@ a:hover {
   font-weight: 600;
 }
 /* Availability bar - sitewide, under the header */
-.avail-bar {
+.site-top {
   position: sticky;
   top: 0;
   z-index: 50;
+  background: var(--paper);
+}
+.avail-bar {
   background: var(--paper-raised);
   border-bottom: 1px solid var(--line);
+}
+/* keep anchor targets clear of the pinned header */
+[id] {
+  scroll-margin-top: 8rem;
 }
 .avail-bar .container {
   display: flex;
@@ -318,7 +325,7 @@ a:hover {
 }
 .hero-intro {
   max-width: var(--measure);
-  margin-top: var(--space-6);
+  margin-top: 0;
   font-size: var(--text-lg);
   line-height: 1.55;
   color: var(--ink-soft);
@@ -632,7 +639,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   gap: var(--space-4);
-  min-height: 3.75rem;
+  min-height: 4.5rem;
   padding-block: var(--space-2);
   border-bottom: 1px solid var(--line);
   font-size: var(--text-sm);
@@ -647,7 +654,7 @@ a:hover {
 .cred-list li {
   display: flex;
   align-items: center;
-  min-height: 3.75rem;
+  min-height: 4.5rem;
   padding-block: var(--space-2);
   border-bottom: 1px solid var(--line);
   font-size: var(--text-sm);

@@ -47,13 +47,15 @@ export default function RootLayout({
         <a href="#main" className="skip-link">
           Skip to content
         </a>
-        <Header />
-        <aside className="avail-bar">
-          <div className="container">
-            <span className="avail-text">{site.openTo}</span>
-            <a href="/#contact">Get in touch</a>
-          </div>
-        </aside>
+        <div className="site-top">
+          <Header />
+          <aside className="avail-bar">
+            <div className="container">
+              <span className="avail-text">{site.openTo}</span>
+              <a href="/#contact">Get in touch</a>
+            </div>
+          </aside>
+        </div>
         <main id="main">{children}</main>
         <Footer />
       </body>
