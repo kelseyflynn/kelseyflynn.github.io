@@ -12,7 +12,7 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/kelseyflynn/",
 
   // Availability - shown in the hero so a recruiter sees it in the first five seconds.
-  openTo: "Open to Senior Manager and Director roles in BizOps, Strategy and PMO",
+  openTo: "Open to Senior Manager and Director roles in BizOps, Strategy and PMO in London/Remote",
 
   // Hero
   headline: "I build the operating infrastructure that lets companies scale",
