@@ -58,6 +58,14 @@ export default function RootLayout({
         </div>
         <main id="main">{children}</main>
         <Footer />
+        {/* GoatCounter - privacy-friendly visit counting. No cookies, no
+            personal data, so no consent banner needed. Dashboard:
+            https://kelseyflynn.goatcounter.com */}
+        <script
+          data-goatcounter="https://kelseyflynn.goatcounter.com/count"
+          async
+          src="https://gc.zgo.at/count.js"
+        />
       </body>
     </html>
   );
