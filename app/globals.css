@@ -743,6 +743,47 @@ a:hover {
   margin-bottom: var(--space-4);
 }
 
+
+/* Experience + credentials: paired grid so rows align at any width */
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: clamp(2rem, 5vw, 5rem);
+}
+.cv-grid .subheading {
+  margin-bottom: 0;
+  padding-bottom: var(--space-4);
+}
+.cv-cell {
+  padding-block: var(--space-4);
+  border-bottom: 1px solid var(--line);
+  font-size: var(--text-sm);
+}
+.cv-term {
+  display: block;
+  font-weight: 600;
+  color: var(--ink);
+}
+.cv-detail {
+  display: block;
+  margin-top: var(--space-1);
+  color: var(--ink-soft);
+}
+@media (max-width: 48rem) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+  .cv-grid > :nth-child(odd) {
+    order: 0;
+  }
+  .cv-grid > :nth-child(even) {
+    order: 1;
+  }
+  .cv-cred-heading {
+    margin-top: var(--space-8);
+  }
+}
+
 /* Contact */
 .contact h2 {
   font-size: var(--text-xl);

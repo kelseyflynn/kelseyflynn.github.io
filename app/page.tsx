@@ -127,29 +127,33 @@ export default function Home() {
       {/* Experience & credentials */}
       <section className="section container" id="experience">
         <SectionHeading number="03">Experience &amp; credentials</SectionHeading>
-        <div className="experience-grid">
-          <div>
-            <h3 className="subheading">Where I&apos;ve worked</h3>
-            <ul className="org-list">
-              {site.experience.map((e) => (
-                <li key={e.org}>
-                  <span className="org">{e.org}</span>
-                  <span className="role">{e.role}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h3 className="subheading">Credentials</h3>
-            <ul className="cred-list">
-              {site.credentials.map((c) => (
-                <li key={c.term}>
-                  <span className="cred-term">{c.term}</span>
-                  <span className="cred-detail">{c.detail}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div className="cv-grid">
+          <h3 className="subheading">Where I&apos;ve worked</h3>
+          <h3 className="subheading cv-cred-heading">Credentials</h3>
+          {Array.from({
+            length: Math.max(site.experience.length, site.credentials.length),
+          }).flatMap((_, i) => {
+            const e = site.experience[i];
+            const c = site.credentials[i];
+            return [
+              <div className="cv-cell" key={`e${i}`}>
+                {e && (
+                  <>
+                    <span className="cv-term">{e.org}</span>
+                    <span className="cv-detail">{e.role}</span>
+                  </>
+                )}
+              </div>,
+              <div className="cv-cell" key={`c${i}`}>
+                {c && (
+                  <>
+                    <span className="cv-term">{c.term}</span>
+                    <span className="cv-detail">{c.detail}</span>
+                  </>
+                )}
+              </div>,
+            ];
+          })}
         </div>
       </section>
 

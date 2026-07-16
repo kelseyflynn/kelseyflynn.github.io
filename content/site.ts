@@ -13,7 +13,8 @@ export const site = {
   substack: "https://deliverydesk.substack.com",
 
   // Availability - shown in the hero so a recruiter sees it in the first five seconds.
-  openTo: "Open to Senior Manager and Director roles in BizOps, Strategy and PMO · London / Remote",
+  openTo:
+    "Open to Senior Manager and Director roles in BizOps, Strategy and PMO · London / Remote",
 
   // Hero
   headline: "I build the operating infrastructure that lets companies scale",
@@ -23,15 +24,17 @@ export const site = {
 
   // Headline numbers. Every figure here is from delivered work.
   metrics: [
-    { value: "$70M+", label: "incremental revenue delivered vs a target raised to $60M" },
+    {
+      value: "$70M+",
+      label: "incremental revenue delivered vs a target raised to $60M",
+    },
     { value: "60+", label: "programmes brought under one portfolio view" },
     { value: "$8.4B", label: "annual spend optimised across 14 markets" },
     { value: "2×", label: "C-suite review prep cut from four weeks to two" },
   ],
 
   // About / capabilities
-  aboutLede:
-    "Three kinds of work I get hired for, and how I do them.",
+  aboutLede: "Three kinds of work I get hired for, and how I do them.",
   capabilities: [
     {
       title: "Programme governance from zero",
@@ -56,16 +59,30 @@ export const site = {
 
   // Experience & credentials
   experience: [
-    { org: "Expedia Group", role: "Commercial strategy & portfolio governance" },
+    {
+      org: "Expedia Group",
+      role: "Commercial strategy & Portfolio governance",
+    },
     { org: "Navigate", role: "Management consulting · Rookie of the Year" },
     { org: "Accenture", role: "Management consulting" },
     { org: "Freelance", role: "AI training consultant" },
   ],
   credentials: [
-    { term: "MBA", detail: "UT Austin McCombs, with the Dean's Award for Academic Excellence" },
-    { term: "BSc Supply Chain & Information Systems", detail: "Penn State, with Distinction" },
+    {
+      term: "MBA",
+      detail:
+        "UT Austin McCombs, with the Dean's Award for Academic Excellence",
+    },
+    {
+      term: "BSc Supply Chain & Information Systems",
+      detail: "Penn State, with Distinction",
+    },
     { term: "PMP", detail: "certified through 2029" },
-    { term: "Recent courses", detail: "Web Development & AI (SheCodes) and AI for Project Managers (PMI)" },
+    {
+      term: "Recent courses",
+      detail:
+        "Web Development & AI (SheCodes) and AI for Project Managers (PMI)",
+    },
   ],
 
   // Contact
