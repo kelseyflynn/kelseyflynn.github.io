@@ -10,6 +10,7 @@ export const site = {
   url: "https://kelseyflynn.github.io",
   email: "kelseyflynn.uk@gmail.com",
   linkedin: "https://www.linkedin.com/in/kelseyflynn/",
+  substack: "https://deliverydesk.substack.com",
 
   // Availability - shown in the hero so a recruiter sees it in the first five seconds.
   openTo: "Open to Senior Manager and Director roles in BizOps, Strategy and PMO · London / Remote",
@@ -18,7 +19,7 @@ export const site = {
   headline: "I build the operating infrastructure that lets companies scale",
   headlineAccent: "without execution breaking down.",
   intro:
-    "A decade turning fragmented teams into focused ones, at Expedia Group, Accenture and Navigate. MBA, PMP, and a firm belief that good governance should speed a company up, not slow it down. I do my best work in the messy middle: new programmes, merging teams, targets still moving, and a real deadline anyway.",
+    "Over a decade turning fragmented teams into focused ones, at Expedia Group, Accenture and Navigate. MBA, PMP, and a firm belief that good governance should speed a company up, not slow it down. I do my best work in the messy middle: new programmes, merging teams, targets still moving, and a real deadline anyway.",
 
   // Headline numbers. Every figure here is from delivered work.
   metrics: [

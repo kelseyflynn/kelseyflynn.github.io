@@ -45,6 +45,19 @@ export default async function CaseStudyPage({
 
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: project.title,
+            description: project.summary,
+            url: `${site.url}/work/${project.slug}/`,
+            author: { "@type": "Person", name: site.name, url: site.url },
+          }),
+        }}
+      />
       <header className="case-header container">
         <p className="project-meta">
           {project.client} · {project.discipline}

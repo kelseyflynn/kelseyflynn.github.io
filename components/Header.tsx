@@ -13,6 +13,7 @@ export function Header() {
           <Link href="/#work">Work</Link>
           <Link href="/#about">About</Link>
           <Link href="/#experience">Experience</Link>
+          <a href={site.substack}>Writing</a>
           <a href="/#contact" className="nav-cta">
             Contact
           </a>

@@ -6,6 +6,13 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { site } from "@/content/site";
 
+export const viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#faf7f1" },
+    { media: "(prefers-color-scheme: dark)", color: "#1d1915" },
+  ],
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
@@ -28,6 +35,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", sizes: "128x128", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+  },
   twitter: {
     card: "summary_large_image",
     title: site.seo.title,
@@ -44,6 +58,30 @@ export default function RootLayout({
   return (
     <html lang="en-GB">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Person",
+                  name: site.name,
+                  jobTitle: "Business Operations, Strategy & PMO Leader",
+                  url: site.url,
+                  email: site.email,
+                  sameAs: [site.linkedin, site.substack],
+                  workLocation: { "@type": "Place", name: site.location },
+                },
+                {
+                  "@type": "WebSite",
+                  name: site.name,
+                  url: site.url,
+                },
+              ],
+            }),
+          }}
+        />
         <a href="#main" className="skip-link">
           Skip to content
         </a>

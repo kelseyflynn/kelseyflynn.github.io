@@ -10,6 +10,8 @@ export function Footer() {
         <span>
           <a href={site.linkedin}>LinkedIn</a>
           {" · "}
+          <a href={site.substack}>The Delivery Desk</a>
+          {" · "}
           <a href={`mailto:${site.email}`}>{site.email}</a>
         </span>
       </div>

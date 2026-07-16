@@ -816,6 +816,7 @@ a:hover {
   margin-block: var(--space-6);
 }
 
+
 /* Reveal animation - purposeful: sections settle into place on first view.
    Fully disabled when the visitor prefers reduced motion. */
 .reveal {
@@ -842,6 +843,36 @@ a:hover {
   *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* Dark mode - the broadsheet after sunset. Same system, inverted with care.
+   Purely via system preference; no toggle to maintain. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1d1915;
+    --paper-raised: #262019;
+    --ink: #f0eadd;
+    --ink-soft: #a89c8d;
+    --line: #38312a;
+    --line-strong: #4c4237;
+    --accent: #b3554b;
+    --accent-ink: #d68a7f;
+  }
+  .portrait {
+    box-shadow: 0 28px 56px -28px rgba(0, 0, 0, 0.7);
+  }
+  /* accent is 3.6:1 on dark paper - fine for the large hero italic,
+     but small accent glyphs step up to accent-ink (6.5:1) */
+  .eyebrow::before,
+  .capability-index,
+  .project-index,
+  .case-section h2::before {
+    color: var(--accent-ink);
+  }
+  ::selection {
+    background: var(--accent-ink);
   }
 }
 
