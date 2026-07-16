@@ -19,7 +19,7 @@ export const site = {
   headline: "I build the operating infrastructure that lets companies scale",
   headlineAccent: "without execution breaking down.",
   intro:
-    "Over a decade turning fragmented teams into focused ones, at Expedia Group, Accenture and Navigate. MBA, PMP, and a firm belief that good governance should speed a company up, not slow it down. I do my best work in the messy middle: new programmes, merging teams, targets still moving, and a real deadline anyway.",
+    "Over a decade turning fragmented teams into focused ones, at Expedia Group, Accenture and Navigate. MBA, PMP, and a firm belief that good governance should speed a company up, not slow it down. I do my best work in the messy middle. New programmes, merging teams, targets still moving, and a real deadline anyway.",
 
   // Headline numbers. Every figure here is from delivered work.
   metrics: [
@@ -58,14 +58,14 @@ export const site = {
   experience: [
     { org: "Expedia Group", role: "Commercial strategy & portfolio governance" },
     { org: "Navigate", role: "Management consulting · Rookie of the Year" },
-    { org: "Accenture", role: "Consulting" },
+    { org: "Accenture", role: "Management consulting" },
     { org: "Freelance", role: "AI training consultant" },
   ],
   credentials: [
-    "MBA, UT Austin McCombs, with the Dean's Award for Academic Excellence",
-    "BSc Supply Chain & Information Systems, Penn State, with Distinction",
-    "PMP, certified through 2029",
-    "Recent courses in Web Development & AI (SheCodes) and AI for Project Managers (PMI)",
+    { term: "MBA", detail: "UT Austin McCombs, with the Dean's Award for Academic Excellence" },
+    { term: "BSc Supply Chain & Information Systems", detail: "Penn State, with Distinction" },
+    { term: "PMP", detail: "certified through 2029" },
+    { term: "Recent courses", detail: "Web Development & AI (SheCodes) and AI for Project Managers (PMI)" },
   ],
 
   // Contact
@@ -73,6 +73,18 @@ export const site = {
     "If your transformation needs an operational engine, that's my favourite job.",
   contactBody:
     "I'm in London, looking for a Senior Manager or Director role in BizOps, Strategy or PMO, ideally somewhere moving fast enough that delivery actually matters. If that sounds like your team, I'd love to hear from you.",
+
+  // Writing - The Delivery Desk. Update these three lines each time you publish.
+  writing: {
+    heading: "Writing The Delivery Desk",
+    intro:
+      "Field notes on operations. Governance that speeds companies up, planning rhythms that stick, and the systems I build.",
+    latestNumber: "No. 1",
+    latestTitle: "I'm running my job search like a transformation programme",
+    latestTitleAccent: "transformation programme",
+    latestBlurb:
+      "A morning scan, a fit score, a tailored CV, and a debrief after every interview.",
+  },
 
   // Portrait. Replace public/portrait.jpg with your headshot (square, ~800x800,
   // exported at quality ~80, under 150KB). The alt text below ships with it.

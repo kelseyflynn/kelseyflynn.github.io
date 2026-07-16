@@ -93,13 +93,33 @@ export default function Home() {
         )}
       </section>
 
-      {/* Now */}
-      <section className="now-strip">
-        <div className="container">
+      {/* Now - current work: consulting + writing, one coherent block */}
+      <section className="now-strip" id="now">
+        <div className="container now-grid">
           <p className="now-label">Now · {site.now.year}</p>
-          <div>
+          <div className="now-body">
             <h2>{site.now.title}</h2>
             <p>{site.now.body}</p>
+
+            <div className="now-writing-block" id="writing">
+              <h2>{site.writing.heading}</h2>
+              <p>{site.writing.intro}</p>
+              <a href={site.substack} className="now-writing">
+                <span className="now-writing-meta">
+                  Latest · {site.writing.latestNumber}
+                </span>
+                <span className="now-writing-title">
+                  {site.writing.latestTitle
+                    .split(site.writing.latestTitleAccent)
+                    .flatMap((part, i) =>
+                      i === 0
+                        ? [part]
+                        : [<em key={i}>{site.writing.latestTitleAccent}</em>, part]
+                    )}
+                </span>
+                <span className="now-writing-cta">Read on The Delivery Desk</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -123,7 +143,10 @@ export default function Home() {
             <h3 className="subheading">Credentials</h3>
             <ul className="cred-list">
               {site.credentials.map((c) => (
-                <li key={c}>{c}</li>
+                <li key={c.term}>
+                  <span className="cred-term">{c.term}</span>
+                  <span className="cred-detail">{c.detail}</span>
+                </li>
               ))}
             </ul>
           </div>
