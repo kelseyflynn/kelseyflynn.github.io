@@ -78,18 +78,18 @@ export const projects: CaseStudy[] = [
     discipline: "Executive operations",
     title: "C-suite planning prep cut from four weeks to two",
     summary:
-      "Owned the monthly, quarterly and board rhythms for the Chief Commercial Officer. Laddered packets, a 25-person contributor chase replaced with self-service data pulls, and QBR decks rebuilt around decisions rather than status.",
+      "Owned the weekly, monthly, quarterly and board rhythms for the Chief Commercial Officer. Laddered packets, a 25-person contributor chase replaced with self-service data pulls, and QBR decks rebuilt around decisions rather than status.",
     metrics: [
       { value: "2 wks", label: "C-suite prep, down from four" },
       { value: "25+", label: "contributors replaced by self-service data pulls" },
-      { value: "3", label: "rhythms owned: monthly, quarterly, board" },
+      { value: "4", label: "rhythms owned: weekly, monthly, quarterly, board" },
     ],
     problem:
       "Every executive review cycle consumed four weeks of preparation and pulled 25+ people into assembling it. Packets were built from scratch each time, and the QBR deck read as a status readout rather than a request for decisions.",
     targetUser:
       "The Chief Commercial Officer, who needed decision-ready material rather than raw inputs, and the 25+ contributors whose time the old process burned every cycle.",
     role:
-      "I owned the executive planning cadence for the CCO, running the monthly, quarterly and board rhythms. I acted as first-line reviewer, so what reached the CCO was near-final rather than raw.",
+      "I owned the executive planning cadence for the CCO, running the weekly, monthly, quarterly and board rhythms. I acted as first-line reviewer, so what reached the CCO was near-final rather than raw.",
     process: [
       "Laddered the packets so each one fed the next. Monthly built toward quarterly, quarterly toward board, nothing assembled twice.",
       "Took the first-review pass myself, handing the CCO a near-finalised packet instead of 25 people's raw inputs.",
