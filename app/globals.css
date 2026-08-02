@@ -306,22 +306,16 @@ a:hover {
   color: var(--accent-ink);
   letter-spacing: 0.01em;
 }
-.avail-text::before {
-  content: "";
-  display: inline-block;
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 50%;
-  background: var(--accent);
-  margin-right: 0.6em;
-  vertical-align: 0.08em;
-}
 .avail-bar a {
   font-weight: 600;
   white-space: nowrap;
   color: var(--accent-ink);
   text-decoration-color: var(--accent);
   text-underline-offset: 0.25em;
+}
+.avail-sep {
+  font-weight: 600;
+  color: var(--accent-ink);
 }
 .hero-intro {
   max-width: var(--measure);

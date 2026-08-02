@@ -93,7 +93,7 @@ export const site = {
   contactHeadline:
     "If your transformation needs an operational engine, that's my favourite job.",
   contactBody:
-    "I'm in London, looking for a Senior Manager or Director role in BizOps, Strategy or PMO, ideally somewhere moving fast enough that delivery actually matters. If that sounds like your team, I'd love to hear from you.",
+    "I'm open to Senior Manager or Director role in BizOps, Strategy or PMO, ideally somewhere moving fast enough that delivery actually matters. If that sounds like your team, I'd love to hear from you.",
 
   // Writing - The Delivery Desk. Update these three lines each time you publish.
   writing: {
