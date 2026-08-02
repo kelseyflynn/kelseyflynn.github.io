@@ -14,7 +14,7 @@ export const site = {
 
   // Availability - shown in the hero so a recruiter sees it in the first five seconds.
   openTo:
-    "Open to Senior Manager and Director roles in BizOps, Strategy and PMO · London / Remote",
+    "Currently running delivery on a transformation programme through Flynn Advisory Group · Open to Senior Manager and Director roles from January 2027",
 
   // Hero
   headline: "I build the operating infrastructure that lets companies scale",
@@ -53,12 +53,16 @@ export const site = {
   // "Now" strip
   now: {
     year: "2026",
-    title: "Teaching AI to think like a consultant",
-    body: "I also work freelance as an AI training consultant, teaching AI agents the consulting frameworks and structured thinking I picked up at Accenture and Navigate. Explaining complex work clearly is useful whether your audience is a boardroom or a machine.",
+    title: "Running delivery on a pharma transformation",
+    body: "I set up Flynn Advisory Group in July 2026 and I'm currently engaged on a pharma transformation programme. I also work freelance as an AI training consultant, teaching AI agents the consulting frameworks and structured thinking I picked up at Accenture and Navigate.",
   },
 
   // Experience & credentials
   experience: [
+    {
+      org: "Flynn Advisory Group",
+      role: "Independent consultancy · Transformation delivery",
+    },
     {
       org: "Expedia Group",
       role: "Commercial strategy & Portfolio governance",
