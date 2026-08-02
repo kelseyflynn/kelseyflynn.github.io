@@ -14,7 +14,7 @@ export const site = {
 
   // Availability - shown in the hero so a recruiter sees it in the first five seconds.
   openTo:
-    "Currently contracting through Flynn Advisory Group · Open to Senior Manager and Director roles",
+    "Currently contracting through Flynn Advisory Group · Open to Senior Manager and Director roles in BizOps, Strategy and PMO",
 
   // Hero
   headline: "I build the operating infrastructure that lets companies scale",
