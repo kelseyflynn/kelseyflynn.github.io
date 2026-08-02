@@ -93,18 +93,18 @@ export const site = {
   contactHeadline:
     "If your transformation needs an operational engine, that's my favourite job.",
   contactBody:
-    "I'm open to Senior Manager or Director role in BizOps, Strategy or PMO, ideally somewhere moving fast enough that delivery actually matters. If that sounds like your team, I'd love to hear from you.",
+    "I'm open to Senior Manager or Director roles in BizOps, Strategy or PMO, ideally somewhere moving fast enough that delivery actually matters. If that sounds like your team, I'd love to hear from you.",
 
   // Writing - The Delivery Desk. Update these three lines each time you publish.
   writing: {
     heading: "Writing The Delivery Desk",
     intro:
       "Field notes on operations. Governance that speeds companies up, planning rhythms that stick, and the systems I build.",
-    latestNumber: "No. 1",
-    latestTitle: "I'm running my job search like a transformation programme",
-    latestTitleAccent: "transformation programme",
+    latestNumber: "No. 3",
+    latestTitle: "My hobby is strategy",
+    latestTitleAccent: "strategy",
     latestBlurb:
-      "A morning scan, a fit score, a tailored CV, and a debrief after every interview.",
+      "Why strategy is the thing I do for fun, even when no one's paying me.",
   },
 
   // Portrait. Replace public/portrait.jpg with your headshot (square, ~800x800,

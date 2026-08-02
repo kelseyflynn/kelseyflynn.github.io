@@ -313,10 +313,6 @@ a:hover {
   text-decoration-color: var(--accent);
   text-underline-offset: 0.25em;
 }
-.avail-sep {
-  font-weight: 600;
-  color: var(--accent-ink);
-}
 .hero-intro {
   max-width: var(--measure);
   margin-top: 0;
